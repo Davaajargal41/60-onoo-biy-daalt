@@ -1,0 +1,33 @@
+.about {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+}
+.about .background {
+  width: 23.5%;
+  height: fit-content;
+}
+.about .center {
+  width: 76.5%;
+  height: 100vh;
+  background-color: rgb(10, 16, 30);
+  //   background-color: aqua;
+  //   margin-left: 10px;
+  padding-top: 100px;
+}
+.about .center .deed {
+  width: 55%;
+  height: 80px;
+  background-color: aqua;
+  margin: auto;
+  font-size: 42px;
+  text-align: center;
+  color: rgba(94, 94, 94, 0.532);
+}
+.about .center .dood {
+  width: 90%;
+  height: 400px;
+  background-color: red;
+  margin: auto;
+  margin-top: 25px;
+}
