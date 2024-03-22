@@ -270,4 +270,40 @@
   background-color: rgb(244, 189, 66);
   margin: auto;
   margin-top: 9px;
+}
+
+.service .gol .dood {
+  width: 85%;
+  height: 450px;
+  margin: auto;
+  margin-top: 40px;
+}
+
+.service .gol .dood .up {
+  width: 100%;
+  height: 48%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.service .gol .dood .up .rec {
+  width: 30%;
+  height: 100%;
+  border: 0.5px solid rgba(95, 95, 95, 0.7);
+  background-color: rgb(16, 22, 36);
+}
+
+.service .gol .dood .bot {
+  width: 100%;
+  height: 48%;
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.service .gol .dood .bot .rec {
+  width: 30%;
+  height: 100%;
+  border: 0.5px solid rgba(95, 95, 95, 0.7);
+  background-color: rgb(16, 22, 36);
 }/*# sourceMappingURL=style.css.map */
