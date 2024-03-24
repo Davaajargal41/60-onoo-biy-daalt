@@ -291,6 +291,36 @@
   height: 100%;
   border: 0.5px solid rgba(95, 95, 95, 0.7);
   background-color: rgb(16, 22, 36);
+  padding-top: 40px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.service .gol .dood .up .rec h4 {
+  color: white;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.service .gol .dood .up .rec p {
+  color: rgb(155, 161, 171);
+  text-align: center;
+  align-items: center;
+  font-size: 14px;
+  margin-top: 10px;
+}
+
+.service .gol .dood .up .rec .circle {
+  width: 60px;
+  height: 60px;
+  background-color: rgb(54, 59, 70);
+  margin: auto;
+  border-radius: 100px;
+  color: rgb(176, 175, 175);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
 }
 
 .service .gol .dood .bot {
@@ -306,4 +336,34 @@
   height: 100%;
   border: 0.5px solid rgba(95, 95, 95, 0.7);
   background-color: rgb(16, 22, 36);
+  padding-top: 40px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.service .gol .dood .bot .rec h4 {
+  color: white;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.service .gol .dood .bot .rec p {
+  color: rgb(155, 161, 171);
+  text-align: center;
+  align-items: center;
+  font-size: 14px;
+  margin-top: 10px;
+}
+
+.service .gol .dood .bot .rec .circle {
+  width: 60px;
+  height: 60px;
+  background-color: rgb(54, 59, 70);
+  margin: auto;
+  border-radius: 100px;
+  color: rgb(176, 175, 175);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
 }/*# sourceMappingURL=style.css.map */
