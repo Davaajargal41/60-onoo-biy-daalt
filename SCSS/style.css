@@ -24,10 +24,15 @@
 
 .container .header {
   width: 20%;
-  height: 100vh;
+  height: 100%;
   background-color: rgb(62, 68, 80);
   border-right: 0.5px solid rgba(95, 95, 95, 0.7);
   position: fixed;
+}
+@media only screen and (max-width: 995px) {
+  .container .header {
+    display: none;
+  }
 }
 
 .container .header .photo {
@@ -84,6 +89,11 @@
   padding-top: 250px;
   scroll-behavior: smooth;
 }
+@media only screen and (max-width: 995px) {
+  .container .home {
+    padding-right: 120px;
+  }
+}
 
 .container .home .garchig {
   width: 60%;
@@ -92,6 +102,13 @@
   text-align: center;
   font-size: 32px;
   color: white;
+}
+
+@media only screen and (max-width: 995px) {
+  .container .home .garchig span {
+    width: 100%;
+    height: 100vh;
+  }
 }
 
 .container .home .uguulber {
@@ -103,6 +120,17 @@
   padding-top: 40px;
   color: rgb(169, 173, 184);
 }
+@media only screen and (max-width: 1207px) {
+  .container .home .uguulber {
+    margin-top: 30px;
+  }
+}
+@media only screen and (max-width: 995px) {
+  .container .home .uguulber {
+    width: 100%;
+    height: 100vh;
+  }
+}
 
 .container .home .icon {
   width: 200px;
@@ -111,6 +139,21 @@
   display: flex;
   justify-content: space-between;
   padding-top: 10px;
+}
+@media only screen and (max-width: 882px) {
+  .container .home .icon {
+    margin-top: 15px;
+  }
+}
+@media only screen and (max-width: 691px) {
+  .container .home .icon {
+    margin-top: 40px;
+  }
+}
+@media only screen and (max-width: 995px) {
+  .container .home .icon {
+    margin-top: 40px;
+  }
 }
 
 .container .home .icon .social {
@@ -139,12 +182,18 @@
   width: 100%;
   height: 100vh;
   display: flex;
+  background-color: rgb(10, 16, 30);
 }
 
 .about .background {
   width: 23.5%;
   height: 100vh;
   background-color: rgb(10, 16, 30);
+}
+@media only screen and (max-width: 995px) {
+  .about .background {
+    display: none;
+  }
 }
 
 .about .center {
@@ -153,6 +202,12 @@
   background-color: rgb(10, 16, 30);
   padding-top: 100px;
   scroll-behavior: smooth;
+}
+@media only screen and (max-width: 995px) {
+  .about .center {
+    width: 100%;
+    height: 100vh;
+  }
 }
 
 .about .center .deed {
@@ -200,7 +255,6 @@
 .about .center .dood .zuun {
   width: 35%;
   height: 80%;
-  background-color: gray;
 }
 
 .about .center .dood .zuun img {
@@ -229,6 +283,11 @@
   color: rgb(244, 189, 66);
   padding-top: 20px;
 }
+@media only screen and (max-width: 1397px) {
+  .about .center .dood .baruun .dev {
+    margin-top: 20px;
+  }
+}
 
 .about .center .dood .baruun .ugnuud {
   width: 100%;
@@ -242,6 +301,21 @@
   width: 100%;
   height: 150px;
   color: rgb(133, 138, 149);
+}
+@media only screen and (max-width: 1203px) {
+  .about .center .dood .baruun .list {
+    margin-top: 10px;
+  }
+}
+@media only screen and (max-width: 1119px) {
+  .about .center .dood .baruun .list {
+    margin-top: 25px;
+  }
+}
+@media only screen and (max-width: 1041px) {
+  .about .center .dood .baruun .list {
+    margin-top: 40px;
+  }
 }
 
 .about .center .dood .baruun .list p {
@@ -260,12 +334,23 @@
   height: 100vh;
   background-color: rgb(10, 16, 30);
 }
+@media only screen and (max-width: 995px) {
+  .service .back {
+    display: none;
+  }
+}
 
 .service .gol {
   width: 76.5%;
   height: 100vh;
   background-color: rgb(10, 16, 30);
   padding-top: 100px;
+}
+@media only screen and (max-width: 995px) {
+  .service .gol {
+    width: 100%;
+    height: 100vh;
+  }
 }
 
 .service .gol .deed {
@@ -423,12 +508,29 @@
   height: 100vh;
   background-color: rgb(10, 16, 30);
 }
+@media only screen and (max-width: 995px) {
+  .portfolio .back {
+    display: none;
+  }
+}
 
 .portfolio .gol {
   width: 76.5%;
   height: 100vh;
   background-color: rgb(10, 16, 30);
   padding-top: 100px;
+}
+@media only screen and (max-width: 899px) {
+  .portfolio .gol {
+    height: 200%;
+    margin: auto;
+  }
+}
+@media only screen and (max-width: 995px) {
+  .portfolio .gol {
+    width: 100%;
+    height: 200%;
+  }
 }
 
 .portfolio .gol .deed {
@@ -477,12 +579,68 @@
   display: flex;
   justify-content: space-between;
 }
+@media only screen and (max-width: 1149px) {
+  .portfolio .gol .door .top {
+    padding-right: 80px;
+  }
+}
+@media only screen and (max-width: 1036px) {
+  .portfolio .gol .door .top {
+    padding-right: 160px;
+  }
+}
+@media only screen and (max-width: 995px) {
+  .portfolio .gol .door .top {
+    padding-left: 100px;
+    margin-left: 30px;
+    display: flex;
+    justify-content: space-around;
+  }
+}
+@media only screen and (max-width: 874px) {
+  .portfolio .gol .door .top {
+    padding-left: 40px;
+    padding-right: 200px;
+    flex-direction: column;
+    height: 400px;
+    margin-top: 190px;
+  }
+}
 
 .portfolio .gol .door .top .sec {
   width: 32.5%;
   height: 100%;
   background-color: aqua;
   position: relative;
+}
+@media only screen and (max-width: 1149px) {
+  .portfolio .gol .door .top .sec {
+    width: 200px;
+    height: 150px;
+    margin: auto;
+  }
+}
+@media only screen and (max-width: 1036px) {
+  .portfolio .gol .door .top .sec {
+    width: 150px;
+    height: 100px;
+    margin: auto;
+  }
+}
+@media only screen and (max-width: 995px) {
+  .portfolio .gol .door .top .sec {
+    width: 200px;
+    height: 100px;
+    margin-left: 10px;
+  }
+}
+@media only screen and (max-width: 874px) {
+  .portfolio .gol .door .top .sec {
+    width: 300px;
+    height: 300px;
+    margin: auto;
+    margin-top: 10px;
+  }
 }
 
 .portfolio .gol .door .top .sec img {
@@ -523,12 +681,68 @@
   display: flex;
   justify-content: space-between;
 }
+@media only screen and (max-width: 1149px) {
+  .portfolio .gol .door .bot {
+    padding-right: 80px;
+  }
+}
+@media only screen and (max-width: 1036px) {
+  .portfolio .gol .door .bot {
+    padding-right: 160px;
+  }
+}
+@media only screen and (max-width: 995px) {
+  .portfolio .gol .door .bot {
+    padding-left: 100px;
+    margin-left: 30px;
+    display: flex;
+    justify-content: space-around;
+  }
+}
+@media only screen and (max-width: 874px) {
+  .portfolio .gol .door .bot {
+    padding-left: 40px;
+    padding-right: 200px;
+    flex-direction: column;
+    height: 400px;
+    margin-top: 190px;
+  }
+}
 
 .portfolio .gol .door .bot .sec {
   width: 32.5%;
   height: 100%;
   background-color: aqua;
   position: relative;
+}
+@media only screen and (max-width: 1149px) {
+  .portfolio .gol .door .bot .sec {
+    width: 200px;
+    height: 150px;
+    margin: auto;
+  }
+}
+@media only screen and (max-width: 1036px) {
+  .portfolio .gol .door .bot .sec {
+    width: 150px;
+    height: 100px;
+    margin: auto;
+  }
+}
+@media only screen and (max-width: 995px) {
+  .portfolio .gol .door .bot .sec {
+    width: 200px;
+    height: 100px;
+    margin-left: 10px;
+  }
+}
+@media only screen and (max-width: 874px) {
+  .portfolio .gol .door .bot .sec {
+    width: 300px;
+    height: 300px;
+    margin: auto;
+    margin-top: 10px;
+  }
 }
 
 .portfolio .gol .door .bot .sec img {
@@ -574,12 +788,28 @@
   height: 100vh;
   background-color: rgb(10, 16, 30);
 }
+@media only screen and (max-width: 995px) {
+  .contact .back {
+    display: none;
+  }
+}
 
 .contact .gol {
   width: 76.5%;
   height: 100vh;
   background-color: rgb(10, 16, 30);
   padding-top: 100px;
+}
+@media only screen and (max-width: 899px) {
+  .contact .gol {
+    margin-top: 863px;
+  }
+}
+@media only screen and (max-width: 995px) {
+  .contact .gol {
+    width: 100%;
+    height: 100vh;
+  }
 }
 
 .contact .gol .deed {

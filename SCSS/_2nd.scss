@@ -2,12 +2,17 @@
   width: 100%;
   height: 100vh;
   display: flex;
+  background-color: rgb(10, 16, 30);
+
 }
 .about .background {
   width: 23.5%;
   height: 100vh;
   // background-color: aqua;
   background-color: rgb(10, 16, 30);
+  @include breakpoint-down(996px){
+    display: none;
+      }
 }
 .about .center {
   width: 76.5%;
@@ -17,6 +22,10 @@
   //   margin-left: 10px;
   padding-top: 100px;
   scroll-behavior: smooth;
+  @include breakpoint-down(996px){
+    width: 100%;
+    height: 100vh;
+      }
 
 }
 .about .center .deed {
@@ -66,7 +75,7 @@
 .about .center .dood .zuun {
   width: 35%;
   height: 80%;
-  background-color: gray;
+  // background-color: gray;
 }
 .about .center .dood .zuun img{
   width: 100%;
@@ -93,6 +102,10 @@
   color: rgb(244, 189, 66);
 
   padding-top: 20px;
+  @include breakpoint-down(1398px){
+  margin-top: 20px;
+  }
+  
 }
 .about .center .dood .baruun .ugnuud {
   width: 100%;
@@ -101,12 +114,22 @@
   padding-top: 20px;
   padding-right: 50px;
   color: rgb(133, 138, 149);
+  
 }
 .about .center .dood .baruun .list {
   width: 100%;
   height: 150px;
   // background-color: #fff;
   color: rgb(133, 138, 149);
+  @include breakpoint-down(1204px){
+margin-top: 10px;
+  }
+  @include breakpoint-down(1120px){
+margin-top: 25px;
+  }
+  @include breakpoint-down(1042px){
+    margin-top: 40px;
+      }
 }
 .about .center .dood .baruun .list p {
   padding-top: 10px;
