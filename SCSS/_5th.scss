@@ -1,0 +1,279 @@
+.contact {
+    width: 100%;
+    height: 100vh;
+    background-color: aqua;
+    display: flex;
+    // flex-direction: column;
+  }
+  .contact .back {
+    width: 23.5%;
+    height: 100vh;
+    // background-color: aqua;
+    background-color: rgb(10, 16, 30);
+  }
+  .contact .gol {
+    width: 76.5%;
+    height: 100vh;
+    background-color: rgb(10, 16, 30);
+    //   background-color: aqua;
+    //   margin-left: 10px;
+    padding-top: 100px;
+  }
+  .contact .gol .deed {
+    width: 55%;
+    height: 80px;
+    // background-color: aqua;
+    margin: auto;
+    font-size: 42px;
+    text-align: center;
+    color: rgba(94, 94, 94, 0.164);
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .contact .gol .deed .davhar {
+    width: 180px;
+    height: 50px;
+    // background-color: green;
+    top: 0;
+    bottom: 0;
+    position: absolute;
+    // margin: auto;
+    color: rgb(244, 189, 66);
+    font-size: 40px;
+    padding-top: 9px;
+    border-bottom: 2.5px solid rgb(63, 69, 81);
+  }
+  .contact .gol .deed .davhar .line {
+    width: 80px;
+    height: 2px;
+    background-color: rgb(244, 189, 66);
+    margin: auto;
+    margin-top: 9px;
+  }
+  .contact .zuun{
+    width: 100px;
+    height: 100px;
+  }
+  .contact .gol .dood{
+    width:90%;
+    height: 500px;
+    // background-color: aqua;
+    margin: auto;
+    margin-top: 20px;
+    display: flex;
+  }
+  .contact .gol .dood .left{
+    width: 50%;
+    height: 100%;
+    // background-color: red; 
+  }
+  .contact .gol .dood .left .garchig{
+    width: 100%;
+    height: 40px;
+    // background-color: aqua;
+    color: white;
+  }
+  .contact .gol .dood .left .name{
+    width:  95%;
+    height: 50px;
+    border: solid 2px rgb(64,69,79);
+    border-radius: 10px;
+    margin-top: 10px;
+  }
+  .contact .gol .dood .left .name input {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    padding-left: 15px;
+    font-size: 17px;
+    border: none;
+    outline: 0;
+    background-color: rgb(16,22,36);
+    color: white;
+
+  }
+  .contact .gol .dood .left .mail{
+    width:  95%;
+    height: 50px;
+    border: solid 2px rgb(64,69,79);
+    border-radius: 10px;
+    margin-top: 20px;
+  }
+  .contact .gol .dood .left .mail input{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    padding-left: 15px;
+    font-size: 17px;
+    border: none;
+    outline: 0;
+    background-color: rgb(16,22,36);
+    color: white;
+
+  }
+
+  .contact .gol .dood .left .subject{
+    width:  95%;
+    height: 50px;
+    border: solid 2px rgb(64,69,79);
+    border-radius: 10px;
+    margin-top: 20px;
+
+  }
+  .contact .gol .dood .left .subject input{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    padding-left: 15px;
+    font-size: 17px;
+    border: none;
+    outline: 0;
+    color: white;
+
+    background-color: rgb(16,22,36);
+  }
+
+  .contact .gol .dood .left .message{
+    width:  95%;
+    height: 150px;
+    border: solid 2px rgb(64,69,79);
+    border-radius: 10px;
+    margin-top: 20px;
+
+  }
+  .contact .gol .dood .left .message input{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    padding-left: 15px;
+    font-size: 17px;
+    border: none;
+    outline: 0;
+    background-color: rgb(16,22,36);
+    padding-bottom: 100px;
+    color: white;
+  }
+
+
+  
+  .contact .gol .dood .right{
+    width: 50%;
+    height: 100%;
+    // background-color: gray;
+    padding-left: 10px;
+  }
+  .contact .gol .dood .right .garchig{
+    width: 100%;
+    height: 40px;
+    // background-color: red;
+    color: white;
+  }
+  .contact .gol .dood .right .uguulber{
+    width: 100%;
+    height: 50px;
+    // background-color: aqua;
+    font-size: 16px;
+    color: rgb(152,154,158);
+    margin-top: 1px;
+    // background-color: aqua;
+  }
+  .contact .gol .dood .right .mail{
+    width: 100%;
+    height: 50px;
+    // background-color: aqua;
+    margin-top: 30px;
+    display: flex;
+  }
+  .contact .gol .dood .right .mail .l{
+    width: 50px;
+    height: 100%;
+    // background-color: red;
+    border-radius: 100px;
+    border: solid 2px rgb(99,102,110);
+    text-align: center;
+    padding-top: 10px;
+    font-size: 24px;
+    color: gray;
+  }
+  .contact .gol .dood .right .mail .r{
+    width: 200px;
+    height: 50px;
+    // background-color: aqua;
+    padding-left: 20px;
+  }
+  .contact .gol .dood .right .mail .r h4{
+    color: white;
+    font-size: 18px;
+    
+  }
+  .contact .gol .dood .right .mail .r p{
+    color: rgb(152,154,158);
+    font-size: 14px;
+    margin-top: 3px;
+}
+.contact .gol .dood .right .phone{
+    width: 100%;
+    height: 50px;
+    // background-color: aqua;
+    margin-top: 30px;
+    display: flex;
+  }
+  .contact .gol .dood .right .phone .l{
+    width: 50px;
+    height: 100%;
+    // background-color: red;
+    border-radius: 100px;
+    border: solid 2px rgb(99,102,110);
+    text-align: center;
+    padding-top: 10px;
+    font-size: 24px;
+    color: gray;
+  }
+  .contact .gol .dood .right .phone .r{
+    width: 200px;
+    height: 50px;
+    // background-color: aqua;
+    padding-left: 20px;
+  }
+  .contact .gol .dood .right .phone .r h4{
+    color: white;
+  }
+  .contact .gol .dood .right .phone .r p{
+    color: rgb(152,154,158);
+    font-size: 14px;
+    margin-top: 10px;
+  }
+  .contact .gol .dood .right .adress{
+    width: 100%;
+    height: 50px;
+    // background-color: aqua;
+    margin-top: 30px;
+    display: flex;
+  }
+  .contact .gol .dood .right .adress .l{
+    width: 50px;
+    height: 100%;
+    // background-color: red;
+    border-radius: 100px;
+    border: solid 2px rgb(99,102,110);
+    text-align: center;
+    padding-top: 10px;
+    font-size: 24px;
+    color: gray;
+  }
+  .contact .gol .dood .right .adress .r{
+    width: 200px;
+    height: 50px;
+    // background-color: aqua;
+    padding-left: 20px;
+  }
+  .contact .gol .dood .right .adress .r h4{
+    color: white;
+  }
+  .contact .gol .dood .right .adress .r p{
+    color: rgb(152,154,158);
+    font-size: 14px;
+    margin-top: 3px;
+  }

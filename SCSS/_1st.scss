@@ -34,6 +34,12 @@
   border-radius: 100px;
   margin: auto;
 }
+.container .header .photo .zurag img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 100px;
+}
 
 .container .header .songolt {
   width: 100%;
