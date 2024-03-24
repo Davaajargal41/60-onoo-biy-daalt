@@ -196,7 +196,14 @@
     padding-top: 10px;
     font-size: 24px;
     color: gray;
+    transition: .5s;
+
   }
+  .contact .gol .dood .right .mail .l:hover{
+    border: solid 2px rgb(244,189,66);
+    color: rgb(244,189,66);
+  }
+
   .contact .gol .dood .right .mail .r{
     width: 200px;
     height: 50px;
@@ -230,6 +237,12 @@
     padding-top: 10px;
     font-size: 24px;
     color: gray;
+    transition: .5s;
+
+  }
+  .contact .gol .dood .right .phone .l:hover{
+    border: solid 2px rgb(244,189,66);
+    color: rgb(244,189,66);
   }
   .contact .gol .dood .right .phone .r{
     width: 200px;
@@ -261,7 +274,12 @@
     text-align: center;
     padding-top: 10px;
     font-size: 24px;
-    color: gray;
+    color: gray; 
+    transition: .5s;
+  }
+  .contact .gol .dood .right .adress .l:hover{
+    border: solid 2px rgb(244,189,66);
+    color: rgb(244,189,66);
   }
   .contact .gol .dood .right .adress .r{
     width: 200px;

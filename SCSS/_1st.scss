@@ -56,6 +56,12 @@
   font-size: 22px;
   text-align: center;
   color: white;
+  cursor: pointer;
+  overflow: hidden;
+  transition: .5s;
+}
+.container .header .songolt .text:hover{
+  color: rgb(244,189,66);
 }
 .container .home {
   width: 80%;
@@ -63,6 +69,7 @@
   // background-color: green;
   background-image: url(/img/bc1.jpg);
   padding-top: 250px;
+  scroll-behavior: smooth;
 }
 .container .home .garchig {
   width: 60%;
@@ -102,4 +109,8 @@
   text-align: center;
   padding-top: 15px;
   font-size: 20px;
+  cursor: pointer;
+}
+.container .home .icon .social:hover{
+  border: 2px solid rgb(169,173,184);
 }

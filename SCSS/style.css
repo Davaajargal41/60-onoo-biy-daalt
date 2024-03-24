@@ -68,6 +68,13 @@
   font-size: 22px;
   text-align: center;
   color: white;
+  cursor: pointer;
+  overflow: hidden;
+  transition: 0.5s;
+}
+
+.container .header .songolt .text:hover {
+  color: rgb(244, 189, 66);
 }
 
 .container .home {
@@ -75,6 +82,7 @@
   height: 100vh;
   background-image: url(/img/bc1.jpg);
   padding-top: 250px;
+  scroll-behavior: smooth;
 }
 
 .container .home .garchig {
@@ -114,6 +122,11 @@
   text-align: center;
   padding-top: 15px;
   font-size: 20px;
+  cursor: pointer;
+}
+
+.container .home .icon .social:hover {
+  border: 2px solid rgb(169, 173, 184);
 }
 
 .maxwidth {
@@ -139,6 +152,7 @@
   height: 100vh;
   background-color: rgb(10, 16, 30);
   padding-top: 100px;
+  scroll-behavior: smooth;
 }
 
 .about .center .deed {
@@ -187,6 +201,13 @@
   width: 35%;
   height: 80%;
   background-color: gray;
+}
+
+.about .center .dood .zuun img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 .about .center .dood .baruun {
@@ -329,6 +350,13 @@
   justify-content: center;
   align-items: center;
   font-size: 24px;
+  cursor: pointer;
+  transition: 1s;
+}
+
+.service .gol .dood .up .rec .circle:hover {
+  border: 1px solid rgb(254, 197, 68);
+  color: rgb(254, 197, 68);
 }
 
 .service .gol .dood .bot {
@@ -374,6 +402,13 @@
   justify-content: center;
   align-items: center;
   font-size: 24px;
+  transition: 1s;
+  cursor: pointer;
+}
+
+.service .gol .dood .bot .rec .circle:hover {
+  border: 1px solid rgb(254, 197, 68);
+  color: rgb(254, 197, 68);
 }
 
 .portfolio {
@@ -447,6 +482,7 @@
   width: 32.5%;
   height: 100%;
   background-color: aqua;
+  position: relative;
 }
 
 .portfolio .gol .door .top .sec img {
@@ -454,6 +490,30 @@
   height: 100%;
   -o-object-fit: cover;
      object-fit: cover;
+  cursor: pointer;
+}
+
+.portfolio .gol .door .top .sec .text {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(rgba(221, 188, 188, 0.055), rgb(59, 57, 57));
+  top: 0;
+  visibility: hidden;
+  opacity: 0;
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+.portfolio .gol .door .top .sec .text p {
+  margin-top: 150px;
+  margin-left: 85px;
+  color: rgb(244, 189, 66);
+}
+
+.portfolio .gol .door .top .sec:hover .text {
+  visibility: visible;
+  opacity: 1;
 }
 
 .portfolio .gol .door .bot {
@@ -468,6 +528,7 @@
   width: 32.5%;
   height: 100%;
   background-color: aqua;
+  position: relative;
 }
 
 .portfolio .gol .door .bot .sec img {
@@ -475,6 +536,30 @@
   height: 100%;
   -o-object-fit: cover;
      object-fit: cover;
+  cursor: pointer;
+}
+
+.portfolio .gol .door .bot .sec .text {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(rgba(221, 188, 188, 0.055), rgb(59, 57, 57));
+  top: 0;
+  visibility: hidden;
+  opacity: 0;
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+.portfolio .gol .door .bot .sec .text p {
+  margin-top: 150px;
+  margin-left: 85px;
+  color: rgb(244, 189, 66);
+}
+
+.portfolio .gol .door .bot .sec:hover .text {
+  visibility: visible;
+  opacity: 1;
 }
 
 .contact {
@@ -671,6 +756,12 @@
   padding-top: 10px;
   font-size: 24px;
   color: gray;
+  transition: 0.5s;
+}
+
+.contact .gol .dood .right .mail .l:hover {
+  border: solid 2px rgb(244, 189, 66);
+  color: rgb(244, 189, 66);
 }
 
 .contact .gol .dood .right .mail .r {
@@ -706,6 +797,12 @@
   padding-top: 10px;
   font-size: 24px;
   color: gray;
+  transition: 0.5s;
+}
+
+.contact .gol .dood .right .phone .l:hover {
+  border: solid 2px rgb(244, 189, 66);
+  color: rgb(244, 189, 66);
 }
 
 .contact .gol .dood .right .phone .r {
@@ -740,6 +837,12 @@
   padding-top: 10px;
   font-size: 24px;
   color: gray;
+  transition: 0.5s;
+}
+
+.contact .gol .dood .right .adress .l:hover {
+  border: solid 2px rgb(244, 189, 66);
+  color: rgb(244, 189, 66);
 }
 
 .contact .gol .dood .right .adress .r {
