@@ -3,6 +3,7 @@
   height: 100vh;
   background-color: rgb(7, 13, 27);
   display: flex;
+  scroll-behavior: smooth;
 }
 .container .header1 {
   width: 20%;
@@ -11,6 +12,9 @@
   // border-right: 0.5px solid rgba(95, 95, 95, 0.7);
   // position: fixed;
   // top: 0;
+  @include breakpoint-down(996px) {
+    display: none;
+  }
 }
 .container .header {
   width: 20%;
@@ -19,8 +23,8 @@
   border-right: 0.5px solid rgba(95, 95, 95, 0.7);
   position: fixed;
   // top: 0;
-  @include breakpoint-down(996px){
-display: none;
+  @include breakpoint-down(996px) {
+    display: none;
   }
 }
 .container .header .photo {
@@ -37,18 +41,19 @@ display: none;
   border-radius: 100px;
   margin: auto;
 }
-.container .header .photo .zurag img{
+.container .header .photo .zurag img {
   width: 100%;
   height: 100%;
   object-fit: cover;
   border-radius: 100px;
 }
 
-.container .header .songolt {
+.container .header .songolt{
   width: 100%;
   height: 60%;
   background-color: rgb(7, 13, 27);
   padding-top: 10px;
+  scroll-behavior: smooth;
 }
 .container .header .songolt .text {
   width: 100px;
@@ -61,25 +66,22 @@ display: none;
   color: white;
   cursor: pointer;
   overflow: hidden;
-  transition: .5s;
+  transition: 0.5s;
 }
-.container .header .songolt .text:hover{
-  color: rgb(244,189,66);
+.container .header .songolt .text:hover {
+  color: rgb(244, 189, 66);
 }
 .container .home {
-  width: 80%;
+  width: 100%;
   height: 100vh;
-  // background-color: green;
-  background-image: url(/img/bc1.jpg);
+  background-color: green;
+  background-image: url("/img/bc1.jpg");
   padding-top: 250px;
   scroll-behavior: smooth;
-  @include breakpoint-down(996px){
-    padding-right: 120px;
-      }
-
 }
+
 .container .home .garchig {
-  width: 60%;
+  width: 100%;
   height: 80px;
   // background-color: aqua;
   margin: auto;
@@ -87,11 +89,16 @@ display: none;
   font-size: 32px;
   color: white;
 }
-.container .home .garchig span{
-  @include breakpoint-down(996px){
-    width: 100%;
-    height: 100vh;
-      }
+.container .home .garchig h1 {
+  @include breakpoint-down(952px) {
+    font-size: 48px;
+  }
+}
+
+.container .home .garchig span {
+  @include breakpoint-down(952px) {
+    font-size: 48px;
+  }
 }
 
 .container .home .uguulber {
@@ -103,13 +110,6 @@ display: none;
   font-size: 18.5px;
   padding-top: 40px;
   color: rgb(169, 173, 184);
-  @include breakpoint-down(1208px){
-    margin-top: 30px;
-  }
-  @include breakpoint-down(996px){
-    width: 100%;
-    height: 100vh;
-      }
 }
 .container .home .icon {
   width: 200px;
@@ -119,15 +119,16 @@ display: none;
   display: flex;
   justify-content: space-between;
   padding-top: 10px;
-  @include breakpoint-down(883px){
-margin-top: 15px;
+  @include breakpoint-down(883px) {
+    margin-top: 15px;
   }
-  @include breakpoint-down(692px){
-margin-top:40px;
+  @include breakpoint-down(692px) {
+    margin-top: 40px;
   }
- @include breakpoint-down(996px){
- margin-top:40px ;
-    }}
+  @include breakpoint-down(996px) {
+    margin-top: 40px;
+  }
+}
 .container .home .icon .social {
   width: 50px;
   height: 50px;
@@ -140,6 +141,6 @@ margin-top:40px;
   font-size: 20px;
   cursor: pointer;
 }
-.container .home .icon .social:hover{
-  border: 2px solid rgb(169,173,184);
+.container .home .icon .social:hover {
+  border: 2px solid rgb(169, 173, 184);
 }
