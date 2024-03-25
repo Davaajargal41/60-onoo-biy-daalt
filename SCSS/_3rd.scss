@@ -9,9 +9,9 @@
   height: 100vh;
   // background-color: aqua;
   background-color: rgb(10, 16, 30);
-  @include breakpoint-down(996px){
+  @include breakpoint-down(996px) {
     display: none;
-      }
+  }
 }
 .service .gol {
   width: 76.5%;
@@ -21,10 +21,10 @@
   //   margin-left: 10px;
   padding-top: 100px;
 
- @include breakpoint-down(996px){
+  @include breakpoint-down(996px) {
     width: 100%;
     height: 100vh;
-      }
+  }
 }
 .service .gol .deed {
   width: 55%;
@@ -76,7 +76,7 @@
 .service .gol .dood .up .rec {
   width: 30%;
   height: 100%;
-    // background-color: wheat;
+  // background-color: wheat;
   border: 0.5px solid rgba(95, 95, 95, 0.7);
   background-color: rgb(16, 22, 36);
   padding-top: 40px;
@@ -109,10 +109,10 @@
   cursor: pointer;
   transition: 1s;
 }
-.service .gol .dood .up .rec .circle:hover{
-  border: 1px solid rgb(254,197,68);
-  color: rgb(254,197,68);
-  }
+.service .gol .dood .up .rec .circle:hover {
+  border: 1px solid rgb(254, 197, 68);
+  color: rgb(254, 197, 68);
+}
 
 .service .gol .dood .bot {
   width: 100%;
@@ -158,7 +158,7 @@
   transition: 1s;
   cursor: pointer;
 }
-.service .gol .dood .bot .rec .circle:hover{
-  border: 1px solid rgb(254,197,68);
-  color: rgb(254,197,68);
-  }
+.service .gol .dood .bot .rec .circle:hover {
+  border: 1px solid rgb(254, 197, 68);
+  color: rgb(254, 197, 68);
+}

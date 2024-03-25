@@ -3,17 +3,15 @@
   height: 100vh;
   display: flex;
   background-color: rgb(10, 16, 30);
-
 }
 .about .background {
   width: 23.5%;
   height: 100vh;
   // background-color: aqua;
   background-color: rgb(10, 16, 30);
-  @include breakpoint-down(996px){
+  @include breakpoint-down(996px) {
     display: none;
-      }
-
+  }
 }
 .about .center {
   width: 76.5%;
@@ -23,11 +21,10 @@
   //   margin-left: 10px;
   padding-top: 100px;
   scroll-behavior: smooth;
-  @include breakpoint-down(996px){
+  @include breakpoint-down(996px) {
     width: 100%;
     height: 100vh;
-      }
-
+  }
 }
 .about .center .deed {
   width: 100%;
@@ -42,9 +39,9 @@
   align-items: center;
   justify-content: center;
 }
-.about .center .deed h1{
-  @include breakpoint-down(925px){
-    font-size: 60px
+.about .center .deed h1 {
+  @include breakpoint-down(925px) {
+    font-size: 60px;
   }
 }
 .about .center .deed .davhar {
@@ -60,8 +57,8 @@
   padding-top: 9px;
   border-bottom: 2.5px solid rgb(63, 69, 81);
 }
-.about .center .deed .davhar h6{
-  @include breakpoint-down(925px){
+.about .center .deed .davhar h6 {
+  @include breakpoint-down(925px) {
     font-size: 20px;
     margin-top: 10px;
   }
@@ -83,7 +80,7 @@
   display: flex;
   // padding-top: 30px;
   margin-top: 70px;
-    @include breakpoint-down(825px){
+  @include breakpoint-down(825px) {
     display: flex;
     flex-direction: column;
   }
@@ -92,11 +89,11 @@
   width: 35%;
   height: 80%;
   background-color: gray;
-  @include breakpoint-down(825px){
+  @include breakpoint-down(825px) {
     margin: auto;
   }
 }
-.about .center .dood .zuun img{
+.about .center .dood .zuun img {
   width: 100%;
   height: 100%;
   object-fit: cover;
@@ -107,29 +104,31 @@
   // background-color: aqua;
   padding-left: 150px;
   padding-top: 20px;
-  @include breakpoint-down(825px){
+  @include breakpoint-down(825px) {
     padding: 0;
     text-align: center;
     margin-left: 90px;
   }
-
 }
 .about .center .dood .baruun .ner {
   width: 100%;
   height: 35px;
-  background-color: aqua;
   color: white;
-  @include breakpoint-down(805px){
-    font-size: 15px
+  font-size: 100px;
+  @include breakpoint-down(1397px) {
+    font-size: 15px;
   }
-  @include breakpoint-down(755px){
-    font-size: 10px;
-    text-align: center;
+  @include breakpoint-down(805px) {
+    font-size: 15px;
   }
 }
-.about .center .dood .baruun .ner h1{
-  @include breakpoint-down(805px){
-    font-size: 15px
+.about .center .dood .baruun .ner h1 {
+  @include breakpoint-down(805px) {
+    font-size: 15px;
+  }
+  @include breakpoint-down(755px) {
+    font-size: 10px;
+    text-align: center;
   }
 }
 
@@ -140,11 +139,10 @@
   color: rgb(244, 189, 66);
 
   padding-top: 20px;
-  }
-  @include breakpoint-down(925px){
-    text-align: center;
-  }
-  
+}
+@include breakpoint-down(925px) {
+  text-align: center;
+}
 
 .about .center .dood .baruun .ugnuud {
   width: 100%;
@@ -153,7 +151,7 @@
   padding-top: 20px;
   padding-right: 50px;
   color: rgb(133, 138, 149);
-  @include breakpoint-down(925px){
+  @include breakpoint-down(925px) {
     text-align: center;
   }
 }
@@ -162,15 +160,15 @@
   height: 150px;
   // background-color: #fff;
   color: rgb(133, 138, 149);
-  @include breakpoint-down(1204px){
-margin-top: 10px;
+  @include breakpoint-down(1204px) {
+    margin-top: 10px;
   }
-  @include breakpoint-down(1120px){
-margin-top: 25px;
+  @include breakpoint-down(1120px) {
+    margin-top: 25px;
   }
-  @include breakpoint-down(1042px){
+  @include breakpoint-down(1042px) {
     margin-top: 40px;
-      }
+  }
 }
 .about .center .dood .baruun .list p {
   padding-top: 10px;

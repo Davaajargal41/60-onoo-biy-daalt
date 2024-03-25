@@ -93,6 +93,12 @@
   background-image: url(/img/bc1.jpg);
   padding-top: 250px;
   scroll-behavior: smooth;
+  
+}
+@media only screen and (max-width: 996px) {
+  .container .home {
+    padding-top: 150px;
+  }
 }
 
 .container .home .garchig {
@@ -102,6 +108,12 @@
   text-align: center;
   font-size: 32px;
   color: white;
+  
+}
+@media only screen and (max-width: 996px) {
+  .container .home .garchig {
+    margin-top: 100px;
+  }
 }
 
 @media only screen and (max-width: 951px) {
@@ -110,12 +122,41 @@
   }
 }
 
+@media only screen and (max-width: 499px) {
+  .container .home .garchig h1 {
+    font-size: 40px;
+  }
+}
+@media only screen and (max-width: 437px) {
+  .container .home .garchig h1 {
+    font-size: 36px;
+  }
+}
+@media only screen and (max-width: 407px) {
+  .container .home .garchig h1 {
+    font-size: 30px;
+  }
+}
 @media only screen and (max-width: 951px) {
   .container .home .garchig span {
     font-size: 48px;
   }
 }
-
+@media only screen and (max-width: 499px) {
+  .container .home .garchig span {
+    font-size: 40px;
+  }
+}
+@media only screen and (max-width: 437px) {
+  .container .home .garchig span {
+    font-size: 36px;
+  }
+}
+@media only screen and (max-width: 407px) {
+  .container .home .garchig span {
+    font-size: 30px;
+  }
+}
 .container .home .uguulber {
   width: 60%;
   height: 100px;
@@ -124,6 +165,21 @@
   font-size: 18.5px;
   padding-top: 40px;
   color: rgb(169, 173, 184);
+}
+@media only screen and (max-width: 951px) {
+  .container .home .uguulber {
+    padding-top: 0px;
+  }
+}
+@media only screen and (max-width: 447px) {
+  .container .home .uguulber {
+    font-size: 16px;
+  }
+}
+@media only screen and (max-width: 447px) {
+  .container .home .uguulber {
+    font-size: 16px;
+  }
 }
 
 .container .home .icon {
@@ -178,7 +234,21 @@
   display: flex;
   background-color: rgb(10, 16, 30);
 }
-
+@media only screen and (max-width: 1203px) {
+  .about {
+    height: 600px;
+  }
+}
+@media only screen and (max-width: 824px) {
+  .about {
+    height: 1200px;
+  }
+}
+@media only screen and (max-width: 741px) {
+  .about {
+    height: fit-content;
+  }
+}
 .about .background {
   width: 23.5%;
   height: 100vh;
@@ -195,7 +265,7 @@
   height: 100vh;
   background-color: rgb(10, 16, 30);
   padding-top: 100px;
-  scroll-behavior: smooth;
+  /* scroll-behavior: smooth; */
 }
 @media only screen and (max-width: 995px) {
   .about .center {
@@ -216,12 +286,20 @@
   align-items: center;
   justify-content: center;
 }
+@media only screen and (max-width: 622px) {
+  .about .center .deed {
 
-@media only screen and (max-width: 924px) {
-  .about .center .deed h1 {
-    font-size: 60px;
+   font-size: 30px;
+   /* padding-top: 10px; */
   }
 }
+@media only screen and (max-width: 461px) {
+  .about .center .deed {
+  color: rgb(244, 189, 66);
+   font-size: 20px;
+  }
+}
+
 
 .about .center .deed .davhar {
   width: 180px;
@@ -234,13 +312,19 @@
   padding-top: 9px;
   border-bottom: 2.5px solid rgb(63, 69, 81);
 }
-
-@media only screen and (max-width: 924px) {
-  .about .center .deed .davhar h6 {
-    font-size: 20px;
-    margin-top: 10px;
+@media only screen and (max-width: 622px) {
+  .about .center .deed .davhar {
+   padding-top: 15px;
   }
 }
+@media only screen and (max-width: 461px) {
+  .about .center .deed .davhar {
+
+
+   display: none;
+  }
+}
+
 
 .about .center .deed .davhar .line {
   width: 80px;
@@ -249,52 +333,92 @@
   margin: auto;
   margin-top: 9px;
 }
+@media only screen and (max-width: 622px) {
+  .about .center .deed .davhar .line {
 
+  
+     display: none;
+    }
+  }
 .about .center .dood {
-  width: 80%;
+  width: 100%;
   height: 400px;
   margin: auto;
   margin-top: 25px;
   display: flex;
   margin-top: 70px;
+  /* margin-left: 30px; */
+  /* background-color: aqua; */
 }
 @media only screen and (max-width: 824px) {
   .about .center .dood {
     display: flex;
     flex-direction: column;
+    padding: 0;
   }
 }
 
 .about .center .dood .zuun {
   width: 35%;
-  height: 80%;
-  background-color: gray;
+  height: fit-content;
+  margin: auto;
+  top: 0;
+  right: 0;
+  /* background-color: gray; */
+  padding-left: 40px;
+}
+@media only screen and (max-width: 713px) {
+  .about .center .dood .zuun {
+    /* margin-left: 40px; */
+    margin-right: 100px;
+  }
 }
 @media only screen and (max-width: 824px) {
   .about .center .dood .zuun {
+    width: 90%;
+    height: 100%;
+    padding: 0;
+    /* margin-left: 40px; */
     margin: auto;
   }
 }
-
+@media only screen and (max-width: 996px) {
+  .about .center .dood .zuun {
+    /* margin-left: 100px; */
+  }
+}
 .about .center .dood .zuun img {
   width: 100%;
   height: 100%;
   -o-object-fit: cover;
   object-fit: cover;
 }
-
 .about .center .dood .baruun {
   width: 65%;
   height: 100%;
-  padding-left: 150px;
+  /* background-color: red; */
+  padding-left: 80px;
   padding-top: 20px;
 }
 @media only screen and (max-width: 824px) {
+.about .center .dood .baruun {
+  text-align: center;
+  /* background-color: aqua; */
+  margin: auto;
+  padding: 0;
+  padding-top: 10px;
+}
+}
+@media only screen and (max-width: 804px) {
   .about .center .dood .baruun {
-    padding: 0;
     text-align: center;
-    margin-left: 90px;
+    padding: 0;
+    font-size: 14px;
+  padding-top: 10px;
+
   }
+}
+@media only screen and (max-width: 661px) {
 }
 
 .about .center .dood .baruun .ner {
@@ -302,24 +426,83 @@
   height: 35px;
   color: white;
 }
-@media only screen and (max-width: 754px) {
-  .about .center .dood .baruun .ner {
-    font-size: 10px;
-    text-align: center;
-  }
+.about .center .dood .baruun .ner h1{
 }
 
+@media only screen and (max-width: 716px) {
+  .about .center .dood .baruun .ner h1{
+    text-align: center;
+    margin: auto;
+    padding: 0;
+    font-size: 22px;
+  }
+  }
+  @media only screen and (max-width: 680px) {
+    .about .center .dood .baruun .ner h1{
+      text-align: center;
+      margin: auto;
+      padding: 0;
+      font-size: 18px;
+      margin-left: 20px;
+    }
+  }
+  @media only screen and (max-width: 616px) {
+    .about .center .dood .baruun .ner h1{
+      text-align: center;
+      margin: auto;
+      padding: 0;
+      font-size: 16px;
+      margin-left: 20px;
+
+    }
+  }
+  @media only screen and (max-width: 580px) {
+    .about .center .dood .baruun .ner h1{
+      text-align: center;
+      margin: auto;
+      padding: 0;
+      font-size: 14px;
+      margin-left: 20px;
+
+    }
+  }
+  @media only screen and (max-width: 548px) {
+    .about .center .dood .baruun .ner h1{
+      text-align: center;
+      margin: auto;
+      padding: 0;
+      font-size: 12px;
+      margin-left: 20px;
+
+    }
+  }
 .about .center .dood .baruun .dev {
   width: 100%;
   height: 30px;
   color: rgb(244, 189, 66);
   padding-top: 20px;
 }
-@media only screen and (max-width: 924px) {
+@media only screen and (max-width: 1221px) {
+.about .center .dood .baruun .dev {
+  margin-top: 20px;
+}
+}
+@media only screen and (max-width: 824px) {
   .about .center .dood .baruun .dev {
     text-align: center;
+  
+    margin: auto;
+    padding: 0;
   }
-}
+  }
+  @media only screen and (max-width: 804px) {
+    .about .center .dood .baruun .dev {
+      text-align: center;
+      
+      padding: 0;
+      font-size: 14px;
+    }
+  }
 
 .about .center .dood .baruun .ugnuud {
   width: 100%;
@@ -328,28 +511,32 @@
   padding-right: 50px;
   color: rgb(133, 138, 149);
 }
-
+@media only screen and (max-width: 824px) {
+  .about .center .dood .baruun .ugnuud {
+    text-align: center;
+  
+    margin: auto;
+    padding: 0;
+  }
+  }
+  @media only screen and (max-width: 804px) {
+    .about .center .dood .baruun .ugnuud {
+      text-align: center;
+      
+      padding: 0;
+      font-size: 14px;
+    }
+  }
 .about .center .dood .baruun .list {
   width: 100%;
   height: 150px;
   color: rgb(133, 138, 149);
 }
-@media only screen and (max-width: 1203px) {
+@media only screen and (max-width: 1027px) {
   .about .center .dood .baruun .list {
-    margin-top: 10px;
+    display: none;
   }
-}
-@media only screen and (max-width: 1119px) {
-  .about .center .dood .baruun .list {
-    margin-top: 25px;
   }
-}
-@media only screen and (max-width: 1041px) {
-  .about .center .dood .baruun .list {
-    margin-top: 40px;
-  }
-}
-
 .about .center .dood .baruun .list p {
   padding-top: 10px;
 }
@@ -357,10 +544,17 @@
 .service {
   width: 100%;
   height: 100vh;
-  background-color: aqua;
+  /* background-color: aqua; */
+  background-color: rgb(10, 16, 30);
+
   display: flex;
 }
 
+@media only screen and (max-width: 1496px) {
+  .service {
+    height: 700px;
+  }
+}
 .service .back {
   width: 23.5%;
   height: 100vh;
@@ -378,12 +572,13 @@
   background-color: rgb(10, 16, 30);
   padding-top: 100px;
 }
-@media only screen and (max-width: 995px) {
+@media only screen and (max-width: 1158px) {
   .service .gol {
     width: 100%;
-    height: 100vh;
+    height: 2000px;
   }
 }
+
 
 .service .gol .deed {
   width: 55%;
@@ -397,7 +592,19 @@
   align-items: center;
   justify-content: center;
 }
+@media only screen and (max-width: 622px) {
+  .service .gol .deed {
 
+   font-size: 30px;
+   /* padding-top: 10px; */
+  }
+}
+@media only screen and (max-width: 461px) {
+  .service .gol .deed {
+  color: rgb(244, 189, 66);
+   font-size: 20px;
+  }
+}
 .service .gol .deed .davhar {
   width: 180px;
   height: 50px;
@@ -409,6 +616,18 @@
   padding-top: 9px;
   border-bottom: 2.5px solid rgb(63, 69, 81);
 }
+@media only screen and (max-width: 622px) {
+  .service .gol .deed .davhar {
+   padding-top: 15px;
+  }
+}
+@media only screen and (max-width: 461px) {
+  .service .gol .deed .davhar {
+
+
+   display: none;
+  }
+}
 
 .service .gol .deed .davhar .line {
   width: 80px;
@@ -417,46 +636,79 @@
   margin: auto;
   margin-top: 9px;
 }
+@media only screen and (max-width: 622px) {
+  .service .gol .deed .davhar .line {
+  
+     display: none;
+    }
+  }
 
-.service .gol .dood {
-  width: 85%;
-  height: 450px;
+
+
+
+
+
+
+
+.service .gol .door {
+  width: fit-content;
+  height: fit-content;
+  display: grid;
+  grid-template-rows: 200px 200px;
+  grid-template-columns: 250px 250px 250px;
+  gap: 10px;
   margin: auto;
-  margin-top: 40px;
+  padding-top: 100px;
 }
+  @media only screen and (max-width: 1158px) {
+    .service .gol .door {
+      height: 1000px;
+      grid-template-columns: 250px 250px;
+      grid-template-rows: 200px 200px 200px;
+    }
+  }
+  @media only screen and (max-width: 614px) {
+    .service .gol .door {
+      grid-template-columns: 200px 200px;
+      grid-template-rows: 150px 150px 150px;
+    }
+  }
+  @media only screen and (max-width: 518px) {
+    .service .gol .door {
+      grid-template-columns: 250px;
+      grid-template-rows: 200px 200px 200px 200px 200px 200px;
+    }
+  }
 
-.service .gol .dood .up {
-  width: 100%;
-  height: 48%;
-  display: flex;
-  justify-content: space-between;
-}
-
-.service .gol .dood .up .rec {
-  width: 30%;
-  height: 100%;
-  border: 0.5px solid rgba(95, 95, 95, 0.7);
+.service .gol .door .item {
+  /* background-color: red; */
   background-color: rgb(16, 22, 36);
+  /* padding-top: 30px ; */
+  border: 0.5px solid rgba(95, 95, 95, 0.7);
   padding-top: 40px;
   padding-left: 20px;
   padding-right: 20px;
 }
-
-.service .gol .dood .up .rec h4 {
+.service .gol .door .item h4 {
   color: white;
   text-align: center;
   margin-top: 20px;
 }
-
-.service .gol .dood .up .rec p {
+.service .gol .door .item p {
   color: rgb(155, 161, 171);
   text-align: center;
   align-items: center;
   font-size: 14px;
   margin-top: 10px;
 }
+@media only screen and (max-width: 614px) {
+.service .gol .door .item p {
+ display: none;
+  }
+}
 
-.service .gol .dood .up .rec .circle {
+
+.service .gol .door .item .circle{
   width: 60px;
   height: 60px;
   background-color: rgb(54, 59, 70);
@@ -470,71 +722,36 @@
   cursor: pointer;
   transition: 1s;
 }
-
-.service .gol .dood .up .rec .circle:hover {
+.service .gol .dooe .item .circle:hover {
   border: 1px solid rgb(254, 197, 68);
   color: rgb(254, 197, 68);
 }
 
-.service .gol .dood .bot {
-  width: 100%;
-  height: 48%;
-  margin-top: 30px;
-  display: flex;
-  justify-content: space-between;
-}
 
-.service .gol .dood .bot .rec {
-  width: 30%;
-  height: 100%;
-  border: 0.5px solid rgba(95, 95, 95, 0.7);
-  background-color: rgb(16, 22, 36);
-  padding-top: 40px;
-  padding-left: 20px;
-  padding-right: 20px;
-}
-
-.service .gol .dood .bot .rec h4 {
-  color: white;
-  text-align: center;
-  margin-top: 20px;
-}
-
-.service .gol .dood .bot .rec p {
-  color: rgb(155, 161, 171);
-  text-align: center;
-  align-items: center;
-  font-size: 14px;
-  margin-top: 10px;
-}
-
-.service .gol .dood .bot .rec .circle {
-  width: 60px;
-  height: 60px;
-  background-color: rgb(54, 59, 70);
-  margin: auto;
-  border-radius: 100px;
-  color: rgb(176, 175, 175);
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-size: 24px;
-  transition: 1s;
-  cursor: pointer;
-}
-
-.service .gol .dood .bot .rec .circle:hover {
-  border: 1px solid rgb(254, 197, 68);
-  color: rgb(254, 197, 68);
-}
 
 .portfolio {
   width: 100%;
   height: 100vh;
-  background-color: aqua;
+  background-color: rgb(10, 16, 30);
   display: flex;
 }
+@media only screen and (max-width: 1158px) {
+  .portfolio{
+    margin-top:200px ;
+  }
+}
+@media only screen and (max-width: 1496px) {
+  .portfolio {
+    height: 700px;
+  }
+}
+@media only screen and (max-width: 516px) {
+  .portfolio {
+    height: 800px;
+    margin-top: 900px ;
 
+  }
+}
 .portfolio .back {
   width: 23.5%;
   height: 100vh;
@@ -571,10 +788,17 @@
   align-items: center;
   justify-content: center;
 }
+@media only screen and (max-width: 622px) {
+  .portfolio .gol .deed {
 
-@media only screen and (max-width: 640px) {
-  .portfolio .gol .deed h1 {
-    font-size: 60px;
+   font-size: 30px;
+   /* padding-top: 10px; */
+  }
+}
+@media only screen and (max-width: 461px) {
+  .portfolio .gol .deed {
+  color: rgb(244, 189, 66);
+   font-size: 20px;
   }
 }
 
@@ -589,13 +813,19 @@
   padding-top: 9px;
   border-bottom: 2.5px solid rgb(63, 69, 81);
 }
-
-@media only screen and (max-width: 640px) {
-  .portfolio .gol .deed .davhar h6 {
-    margin-top: 10px;
-    font-size: 20px;
+@media only screen and (max-width: 622px) {
+  .portfolio .gol .deed .davhar {
+   padding-top: 15px;
   }
 }
+@media only screen and (max-width: 461px) {
+  .portfolio .gol .deed .davhar {
+
+
+   display: none;
+  }
+}
+
 
 .portfolio .gol .deed .davhar .line {
   width: 80px;
@@ -603,6 +833,13 @@
   background-color: rgb(244, 189, 66);
   margin: auto;
   margin-top: 9px;
+}
+
+@media only screen and (max-width: 622px) {
+.portfolio .gol .deed .davhar .line {
+
+   display: none;
+  }
 }
 
 .portfolio .gol .door {
@@ -639,6 +876,7 @@
 
 .portfolio .gol .door .item {
   background-color: red;
+  position: relative;
 }
 
 .portfolio .gol .door .item img {
@@ -647,7 +885,30 @@
   -o-object-fit: cover;
   object-fit: cover;
 }
-
+.portfolio .gol .door .item .text{
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(
+    rgba(61, 60, 60, 0.384),
+    rgba(15, 15, 15, 0.705)
+  );
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  visibility: hidden;
+  opacity: 0;
+  transition: 1s;
+  text-align: center;
+  padding-top: 150px;
+  cursor: pointer;
+  color: white;
+}
+.portfolio .gol .door .item:hover .text{
+  visibility: visible;
+  opacity: 1;
+}
 .contact {
   width: 100%;
   height: 100vh;
@@ -657,6 +918,14 @@
 @media only screen and (max-width: 1158px) {
   .contact {
     margin-top: 220px;
+  }
+}
+@media only screen and (max-width: 519px) {
+  .contact {
+    height: 1000px;
+    margin-top: 750px;
+  background-color: rgb(10, 16, 30);
+
   }
 }
 
@@ -683,11 +952,11 @@
     height: 100vh;
   }
 }
-@media only screen and (max-width: 518px) {
+/* @media only screen and (max-width: 518px) {
   .contact .gol {
     margin-top: 500px;
   }
-}
+} */
 
 .contact .gol .deed {
   width: 55%;
@@ -701,6 +970,20 @@
   align-items: center;
   justify-content: center;
 }
+@media only screen and (max-width: 622px) {
+  .contact .gol .deed {
+
+   font-size: 30px;
+   /* padding-top: 10px; */
+  }
+}
+@media only screen and (max-width: 461px) {
+  .contact .gol .deed {
+  color: rgb(244, 189, 66);
+   font-size: 20px;
+  }
+}
+
 
 .contact .gol .deed .davhar {
   width: 180px;
@@ -713,6 +996,18 @@
   padding-top: 9px;
   border-bottom: 2.5px solid rgb(63, 69, 81);
 }
+@media only screen and (max-width: 622px) {
+  .contact .gol .deed .davhar {
+   padding-top: 15px;
+  }
+}
+@media only screen and (max-width: 461px) {
+  .contact .gol .deed .davhar {
+
+
+   display: none;
+  }
+}
 
 .contact .gol .deed .davhar .line {
   width: 80px;
@@ -721,7 +1016,12 @@
   margin: auto;
   margin-top: 9px;
 }
-
+@media only screen and (max-width: 622px) {
+  .contact .gol .deed .davhar .line {
+  
+     display: none;
+    }
+  }
 .contact .zuun {
   width: 100px;
   height: 100px;
@@ -734,10 +1034,22 @@
   margin-top: 20px;
   display: flex;
 }
+@media only screen and (max-width: 850px) {
+  .contact .gol .dood {
+
+   display: flex;
+   flex-direction: column;
+  }
+}
 
 .contact .gol .dood .left {
   width: 50%;
   height: 100%;
+}
+@media only screen and (max-width: 850px) {
+  .contact .gol .dood .left{
+    width: 100%;
+  }
 }
 
 .contact .gol .dood .left .garchig {
@@ -831,6 +1143,12 @@
   width: 50%;
   height: 100%;
   padding-left: 10px;
+
+}
+@media only screen and (max-width: 850px) {
+  .contact .gol .dood .right{
+width: 100%;
+  }
 }
 
 .contact .gol .dood .right .garchig {
@@ -845,6 +1163,11 @@
   font-size: 16px;
   color: rgb(152, 154, 158);
   margin-top: 1px;
+}
+@media only screen and (max-width: 401px) {
+  .contact .gol .dood .right .uguulber {
+    font-size: 14px;
+  }
 }
 
 .contact .gol .dood .right .mail {
