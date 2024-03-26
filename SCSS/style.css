@@ -93,7 +93,6 @@
   background-image: url(/img/bc1.jpg);
   padding-top: 250px;
   scroll-behavior: smooth;
-  
 }
 @media only screen and (max-width: 996px) {
   .container .home {
@@ -108,7 +107,6 @@
   text-align: center;
   font-size: 32px;
   color: white;
-  
 }
 @media only screen and (max-width: 996px) {
   .container .home .garchig {
@@ -227,7 +225,11 @@
   margin: auto;
   padding: 0 50px;
 }
-
+@media only screen and (max-width: 800px) {
+  .maxwidth {
+    padding: 0;
+  }
+}
 .about {
   width: 100%;
   height: 100vh;
@@ -288,18 +290,16 @@
 }
 @media only screen and (max-width: 622px) {
   .about .center .deed {
-
-   font-size: 30px;
-   /* padding-top: 10px; */
+    font-size: 30px;
+    /* padding-top: 10px; */
   }
 }
 @media only screen and (max-width: 461px) {
   .about .center .deed {
-  color: rgb(244, 189, 66);
-   font-size: 20px;
+    color: rgb(244, 189, 66);
+    font-size: 20px;
   }
 }
-
 
 .about .center .deed .davhar {
   width: 180px;
@@ -314,17 +314,14 @@
 }
 @media only screen and (max-width: 622px) {
   .about .center .deed .davhar {
-   padding-top: 15px;
+    padding-top: 15px;
   }
 }
 @media only screen and (max-width: 461px) {
   .about .center .deed .davhar {
-
-
-   display: none;
+    display: none;
   }
 }
-
 
 .about .center .deed .davhar .line {
   width: 80px;
@@ -335,11 +332,9 @@
 }
 @media only screen and (max-width: 622px) {
   .about .center .deed .davhar .line {
-
-  
-     display: none;
-    }
+    display: none;
   }
+}
 .about .center .dood {
   width: 100%;
   height: 400px;
@@ -401,21 +396,20 @@
   padding-top: 20px;
 }
 @media only screen and (max-width: 824px) {
-.about .center .dood .baruun {
-  text-align: center;
-  /* background-color: aqua; */
-  margin: auto;
-  padding: 0;
-  padding-top: 10px;
-}
+  .about .center .dood .baruun {
+    text-align: center;
+    /* background-color: aqua; */
+    margin: auto;
+    padding: 0;
+    padding-top: 10px;
+  }
 }
 @media only screen and (max-width: 804px) {
   .about .center .dood .baruun {
     text-align: center;
     padding: 0;
     font-size: 14px;
-  padding-top: 10px;
-
+    padding-top: 10px;
   }
 }
 @media only screen and (max-width: 661px) {
@@ -426,56 +420,53 @@
   height: 35px;
   color: white;
 }
-.about .center .dood .baruun .ner h1{
+.about .center .dood .baruun .ner h1 {
 }
 
 @media only screen and (max-width: 716px) {
-  .about .center .dood .baruun .ner h1{
+  .about .center .dood .baruun .ner h1 {
     text-align: center;
     margin: auto;
     padding: 0;
     font-size: 22px;
   }
+}
+@media only screen and (max-width: 680px) {
+  .about .center .dood .baruun .ner h1 {
+    text-align: center;
+    margin: auto;
+    padding: 0;
+    font-size: 18px;
+    margin-left: 20px;
   }
-  @media only screen and (max-width: 680px) {
-    .about .center .dood .baruun .ner h1{
-      text-align: center;
-      margin: auto;
-      padding: 0;
-      font-size: 18px;
-      margin-left: 20px;
-    }
+}
+@media only screen and (max-width: 616px) {
+  .about .center .dood .baruun .ner h1 {
+    text-align: center;
+    margin: auto;
+    padding: 0;
+    font-size: 16px;
+    margin-left: 20px;
   }
-  @media only screen and (max-width: 616px) {
-    .about .center .dood .baruun .ner h1{
-      text-align: center;
-      margin: auto;
-      padding: 0;
-      font-size: 16px;
-      margin-left: 20px;
-
-    }
+}
+@media only screen and (max-width: 580px) {
+  .about .center .dood .baruun .ner h1 {
+    text-align: center;
+    margin: auto;
+    padding: 0;
+    font-size: 14px;
+    margin-left: 20px;
   }
-  @media only screen and (max-width: 580px) {
-    .about .center .dood .baruun .ner h1{
-      text-align: center;
-      margin: auto;
-      padding: 0;
-      font-size: 14px;
-      margin-left: 20px;
-
-    }
+}
+@media only screen and (max-width: 548px) {
+  .about .center .dood .baruun .ner h1 {
+    text-align: center;
+    margin: auto;
+    padding: 0;
+    font-size: 12px;
+    margin-left: 20px;
   }
-  @media only screen and (max-width: 548px) {
-    .about .center .dood .baruun .ner h1{
-      text-align: center;
-      margin: auto;
-      padding: 0;
-      font-size: 12px;
-      margin-left: 20px;
-
-    }
-  }
+}
 .about .center .dood .baruun .dev {
   width: 100%;
   height: 30px;
@@ -483,26 +474,26 @@
   padding-top: 20px;
 }
 @media only screen and (max-width: 1221px) {
-.about .center .dood .baruun .dev {
-  margin-top: 20px;
-}
+  .about .center .dood .baruun .dev {
+    margin-top: 20px;
+  }
 }
 @media only screen and (max-width: 824px) {
   .about .center .dood .baruun .dev {
     text-align: center;
-  
+
     margin: auto;
     padding: 0;
   }
+}
+@media only screen and (max-width: 804px) {
+  .about .center .dood .baruun .dev {
+    text-align: center;
+
+    padding: 0;
+    font-size: 14px;
   }
-  @media only screen and (max-width: 804px) {
-    .about .center .dood .baruun .dev {
-      text-align: center;
-      
-      padding: 0;
-      font-size: 14px;
-    }
-  }
+}
 
 .about .center .dood .baruun .ugnuud {
   width: 100%;
@@ -514,19 +505,19 @@
 @media only screen and (max-width: 824px) {
   .about .center .dood .baruun .ugnuud {
     text-align: center;
-  
+
     margin: auto;
     padding: 0;
   }
+}
+@media only screen and (max-width: 804px) {
+  .about .center .dood .baruun .ugnuud {
+    text-align: center;
+
+    padding: 0;
+    font-size: 14px;
   }
-  @media only screen and (max-width: 804px) {
-    .about .center .dood .baruun .ugnuud {
-      text-align: center;
-      
-      padding: 0;
-      font-size: 14px;
-    }
-  }
+}
 .about .center .dood .baruun .list {
   width: 100%;
   height: 150px;
@@ -536,7 +527,7 @@
   .about .center .dood .baruun .list {
     display: none;
   }
-  }
+}
 .about .center .dood .baruun .list p {
   padding-top: 10px;
 }
@@ -579,7 +570,6 @@
   }
 }
 
-
 .service .gol .deed {
   width: 55%;
   height: 80px;
@@ -594,15 +584,14 @@
 }
 @media only screen and (max-width: 622px) {
   .service .gol .deed {
-
-   font-size: 30px;
-   /* padding-top: 10px; */
+    font-size: 30px;
+    /* padding-top: 10px; */
   }
 }
 @media only screen and (max-width: 461px) {
   .service .gol .deed {
-  color: rgb(244, 189, 66);
-   font-size: 20px;
+    color: rgb(244, 189, 66);
+    font-size: 20px;
   }
 }
 .service .gol .deed .davhar {
@@ -618,14 +607,12 @@
 }
 @media only screen and (max-width: 622px) {
   .service .gol .deed .davhar {
-   padding-top: 15px;
+    padding-top: 15px;
   }
 }
 @media only screen and (max-width: 461px) {
   .service .gol .deed .davhar {
-
-
-   display: none;
+    display: none;
   }
 }
 
@@ -638,17 +625,9 @@
 }
 @media only screen and (max-width: 622px) {
   .service .gol .deed .davhar .line {
-  
-     display: none;
-    }
+    display: none;
   }
-
-
-
-
-
-
-
+}
 
 .service .gol .door {
   width: fit-content;
@@ -660,25 +639,38 @@
   margin: auto;
   padding-top: 100px;
 }
-  @media only screen and (max-width: 1158px) {
-    .service .gol .door {
-      height: 1000px;
-      grid-template-columns: 250px 250px;
-      grid-template-rows: 200px 200px 200px;
-    }
+@media only screen and (max-width: 1158px) {
+  .service .gol .door {
+    height: 1000px;
+    grid-template-columns: 250px 250px;
+    grid-template-rows: 200px 200px 200px;
   }
-  @media only screen and (max-width: 614px) {
-    .service .gol .door {
-      grid-template-columns: 200px 200px;
-      grid-template-rows: 150px 150px 150px;
-    }
+}
+@media only screen and (max-width: 996px) {
+  .service .gol .door {
+    /* height: 1000px; */
+    grid-template-columns: 300px 300px;
+    grid-template-rows: 250px 250px 250px;
   }
-  @media only screen and (max-width: 518px) {
-    .service .gol .door {
-      grid-template-columns: 250px;
-      grid-template-rows: 200px 200px 200px 200px 200px 200px;
-    }
+}
+@media only screen and (max-width: 614px) {
+  .service .gol .door {
+    grid-template-columns: 280px 280px;
+    grid-template-rows: 150px 150px 150px;
   }
+}
+@media only screen and (max-width: 574px) {
+  .service .gol .door {
+    grid-template-columns: 240px 240px;
+    grid-template-rows: 150px 150px 150px;
+  }
+}
+@media only screen and (max-width: 518px) {
+  .service .gol .door {
+    grid-template-columns: 350px;
+    grid-template-rows: 250px 250px 250px 250px 250px 250px;
+  }
+}
 
 .service .gol .door .item {
   /* background-color: red; */
@@ -702,13 +694,12 @@
   margin-top: 10px;
 }
 @media only screen and (max-width: 614px) {
-.service .gol .door .item p {
- display: none;
+  .service .gol .door .item p {
+    display: none;
   }
 }
 
-
-.service .gol .door .item .circle{
+.service .gol .door .item .circle {
   width: 60px;
   height: 60px;
   background-color: rgb(54, 59, 70);
@@ -727,8 +718,6 @@
   color: rgb(254, 197, 68);
 }
 
-
-
 .portfolio {
   width: 100%;
   height: 100vh;
@@ -736,8 +725,13 @@
   display: flex;
 }
 @media only screen and (max-width: 1158px) {
-  .portfolio{
-    margin-top:200px ;
+  .portfolio {
+    margin-top: 200px;
+  }
+}
+@media only screen and (max-width: 996px) {
+  .portfolio {
+    margin-top: 350px;
   }
 }
 @media only screen and (max-width: 1496px) {
@@ -748,8 +742,7 @@
 @media only screen and (max-width: 516px) {
   .portfolio {
     height: 800px;
-    margin-top: 900px ;
-
+    margin-top: 1150px;
   }
 }
 .portfolio .back {
@@ -790,15 +783,14 @@
 }
 @media only screen and (max-width: 622px) {
   .portfolio .gol .deed {
-
-   font-size: 30px;
-   /* padding-top: 10px; */
+    font-size: 30px;
+    /* padding-top: 10px; */
   }
 }
 @media only screen and (max-width: 461px) {
   .portfolio .gol .deed {
-  color: rgb(244, 189, 66);
-   font-size: 20px;
+    color: rgb(244, 189, 66);
+    font-size: 20px;
   }
 }
 
@@ -815,17 +807,14 @@
 }
 @media only screen and (max-width: 622px) {
   .portfolio .gol .deed .davhar {
-   padding-top: 15px;
+    padding-top: 15px;
   }
 }
 @media only screen and (max-width: 461px) {
   .portfolio .gol .deed .davhar {
-
-
-   display: none;
+    display: none;
   }
 }
-
 
 .portfolio .gol .deed .davhar .line {
   width: 80px;
@@ -836,9 +825,8 @@
 }
 
 @media only screen and (max-width: 622px) {
-.portfolio .gol .deed .davhar .line {
-
-   display: none;
+  .portfolio .gol .deed .davhar .line {
+    display: none;
   }
 }
 
@@ -861,16 +849,30 @@
     grid-template-rows: 200px 200px 200px;
   }
 }
+@media only screen and (max-width: 996px) {
+  .portfolio .gol .door {
+    /* height: 1000px; */
+    grid-template-columns: 300px 300px;
+    grid-template-rows: 250px 250px 250px;
+  }
+}
 @media only screen and (max-width: 614px) {
   .portfolio .gol .door {
-    grid-template-columns: 200px 200px;
+    grid-template-columns: 280px 280px;
+    grid-template-rows: 150px 150px 150px;
+  }
+}
+
+@media only screen and (max-width: 574px) {
+  .portfolio .gol .door {
+    grid-template-columns: 240px 240px;
     grid-template-rows: 150px 150px 150px;
   }
 }
 @media only screen and (max-width: 518px) {
   .portfolio .gol .door {
-    grid-template-columns: 250px;
-    grid-template-rows: 200px 200px 200px 200px 200px 200px;
+    grid-template-columns: 350px;
+    grid-template-rows: 250px 250px 250px 250px 250px 250px;
   }
 }
 
@@ -885,13 +887,10 @@
   -o-object-fit: cover;
   object-fit: cover;
 }
-.portfolio .gol .door .item .text{
+.portfolio .gol .door .item .text {
   width: 100%;
   height: 100%;
-  background: linear-gradient(
-    rgba(61, 60, 60, 0.384),
-    rgba(15, 15, 15, 0.705)
-  );
+  background: linear-gradient(rgba(61, 60, 60, 0.384), rgba(15, 15, 15, 0.705));
   position: absolute;
   top: 0;
   bottom: 0;
@@ -905,7 +904,7 @@
   cursor: pointer;
   color: white;
 }
-.portfolio .gol .door .item:hover .text{
+.portfolio .gol .door .item:hover .text {
   visibility: visible;
   opacity: 1;
 }
@@ -920,12 +919,16 @@
     margin-top: 220px;
   }
 }
+@media only screen and (max-width: 996px) {
+  .contact {
+    margin-top: 300px;
+  }
+}
 @media only screen and (max-width: 519px) {
   .contact {
     height: 1000px;
-    margin-top: 750px;
-  background-color: rgb(10, 16, 30);
-
+    margin-top: 1000px;
+    background-color: rgb(10, 16, 30);
   }
 }
 
@@ -972,18 +975,16 @@
 }
 @media only screen and (max-width: 622px) {
   .contact .gol .deed {
-
-   font-size: 30px;
-   /* padding-top: 10px; */
+    font-size: 30px;
+    /* padding-top: 10px; */
   }
 }
 @media only screen and (max-width: 461px) {
   .contact .gol .deed {
-  color: rgb(244, 189, 66);
-   font-size: 20px;
+    color: rgb(244, 189, 66);
+    font-size: 20px;
   }
 }
-
 
 .contact .gol .deed .davhar {
   width: 180px;
@@ -998,14 +999,12 @@
 }
 @media only screen and (max-width: 622px) {
   .contact .gol .deed .davhar {
-   padding-top: 15px;
+    padding-top: 15px;
   }
 }
 @media only screen and (max-width: 461px) {
   .contact .gol .deed .davhar {
-
-
-   display: none;
+    display: none;
   }
 }
 
@@ -1018,10 +1017,9 @@
 }
 @media only screen and (max-width: 622px) {
   .contact .gol .deed .davhar .line {
-  
-     display: none;
-    }
+    display: none;
   }
+}
 .contact .zuun {
   width: 100px;
   height: 100px;
@@ -1036,9 +1034,8 @@
 }
 @media only screen and (max-width: 850px) {
   .contact .gol .dood {
-
-   display: flex;
-   flex-direction: column;
+    display: flex;
+    flex-direction: column;
   }
 }
 
@@ -1047,7 +1044,7 @@
   height: 100%;
 }
 @media only screen and (max-width: 850px) {
-  .contact .gol .dood .left{
+  .contact .gol .dood .left {
     width: 100%;
   }
 }
@@ -1143,11 +1140,10 @@
   width: 50%;
   height: 100%;
   padding-left: 10px;
-
 }
 @media only screen and (max-width: 850px) {
-  .contact .gol .dood .right{
-width: 100%;
+  .contact .gol .dood .right {
+    width: 100%;
   }
 }
 
