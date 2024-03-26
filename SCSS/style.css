@@ -224,6 +224,7 @@
   max-width: 1400px;
   margin: auto;
   padding: 0 50px;
+  background-color: rgb(10, 16, 30);
 }
 @media only screen and (max-width: 800px) {
   .maxwidth {
@@ -544,6 +545,17 @@
 @media only screen and (max-width: 1496px) {
   .service {
     height: 700px;
+  }
+}
+
+@media only screen and (max-width: 740px) {
+  .service {
+    margin-top: 200px;
+  }
+}
+@media only screen and (max-width: 535px) {
+  .service {
+    margin-top: 250px;
   }
 }
 .service .back {
